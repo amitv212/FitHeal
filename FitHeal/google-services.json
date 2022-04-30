@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "885611532885",
+    "project_id": "harder-than-last-time-d147b",
+    "storage_bucket": "harder-than-last-time-d147b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885611532885:android:1d2e34c6996f2320493adc",
+        "android_client_info": {
+          "package_name": "com.whatever.verifit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885611532885-bjsbn71bvocnvbba0c4po9lcosrii6ig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLrcuFrUnGZHPgFQK8Gy8kQsDgvDFGwlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885611532885-bjsbn71bvocnvbba0c4po9lcosrii6ig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_today_24px"
+        app:showAsAction="always"
+        app:iconTint="@color/cardview_light_background"
+        android:title="TODO">
+    </item>
+
+</menu>

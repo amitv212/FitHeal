@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">FitHeal</string>
+    <string name="welcome_to_fitheal">Welcome to FitHeal</string>
+    <string name="title_activity_fit_heal">FitHeal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="add_comment">Add Comment</string>
+    <string name="choose_exercise_name">Choose Exercise Name:</string>
+    <string name="choose_exercise_category">Choose Exercise Category:</string>
+    <string-array name="Categories">
+        <item>Chest</item>
+        <item>Back</item>
+        <item>Shoulders</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Legs</item>
+        <item>Abs</item>
+    </string-array>
+    <string name="welcome_to">
+
+Welcome to
+</string>
+    <string name="get_to_know">
+
+Get to know yourself
+</string>
+    <string name="better">
+
+BETTER
+</string>
+    <string name="log_in">
+
+Log in
+</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="TandC">I agree to the terms and condition of the AppCompany</string>
+    <string name="error_view">Error View</string>
+    <string name="password">Password</string>
+    <string name="email_hint">user@domain.com</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="email_verify_again">Send Verify Email Again</string>
+    <string name="enterEmailId">Enter the registered Email ID</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="user_domain_com">user@domain.com</string>
+
+</resources>

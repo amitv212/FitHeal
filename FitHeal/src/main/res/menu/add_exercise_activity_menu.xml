@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_settings_backup_restore_24px"
+        app:showAsAction="always"
+        app:iconTint="@color/cardview_light_background">
+    </item>
+
+    <item
+        android:id="@+id/graph"
+        android:icon="@drawable/ic_poll_24px"
+        app:showAsAction="always"
+        app:iconTint="@color/cardview_light_background">
+    </item>
+
+
+    <item
+        android:id="@+id/timer"
+        android:icon="@drawable/ic_alarm_24px"
+        app:showAsAction="always"
+        app:iconTint="@color/cardview_light_background">
+
+    </item>
+
+    <item
+        android:id="@+id/comment"
+        android:icon="@drawable/ic_comment_24px"
+        app:showAsAction="always"
+        app:iconTint="@color/cardview_light_background">
+
+    </item>
+
+
+
+
+
+
+
+
+</menu>

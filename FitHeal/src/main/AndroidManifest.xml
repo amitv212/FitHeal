@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.FitHeal">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FitHeal"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SignUpActivity"
+            android:label="Sign Up"/>
+        <activity android:name=".SignInActivity"
+            android:label="Sign In"/>
+        <activity
+            android:name=".welcome_page"
+            android:exported="false" />
+        <activity
+            android:name=".ChartsActivity"
+            android:label="Charts" />
+        <activity
+            android:name=".CustomExerciseActivity"
+            android:label="New Exercise" />
+        <activity
+            android:name=".ExercisesActivity"
+            android:label="Exercises" />
+        <activity
+            android:name=".DayActivity"
+            android:label="Day" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName=".MeActivity" />
+        <activity
+            android:name=".CalculatorActivity"
+            android:label="Plate Calculator" />
+        <activity
+            android:name=".MeActivity"
+            android:label="Me" />
+        <activity
+            android:name=".AddExerciseActivity"
+            android:label="Add Exercise" />
+        <activity
+            android:name=".DiaryActivity"
+            android:label="Diary" />
+        <activity
+            android:name=".MainActivity"
+            android:label="FitHeal" />
+        <activity
+            android:name=".Login_Page"
+            android:label="Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

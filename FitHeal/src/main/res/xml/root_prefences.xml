@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Backup and Restore">
+
+        <Preference
+           android:key="importcsv"
+            android:summary="Import workout data from a previous backup"
+            android:title="Import Workout Data"
+            />
+
+        <Preference
+            android:key="exportcsv"
+            android:summary="Create a backup of your current workout data"
+            android:title="Export Workout Data" />
+
+        <Preference
+            android:key="deletedata"
+            android:summary="Delete all local workout data"
+            android:title="Delete Data" />
+
+        <!--        <SwitchPreferenceCompat-->
+        <!--            app:key="nextsync"-->
+        <!--            app:summaryOff="Automatic Backup is currently turned off"-->
+        <!--            app:summaryOn="Automatic Backup is currently turned on"-->
+        <!--            app:title="Nextcloud Sync" />-->
+
+
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

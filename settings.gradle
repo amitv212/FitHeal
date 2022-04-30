@@ -1,0 +1,2 @@
+include ':FitHeal'
+rootProject.name = "FitHeal"
